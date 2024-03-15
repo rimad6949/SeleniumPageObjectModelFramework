@@ -4,13 +4,13 @@ import java.lang.reflect.Method;
 
 import org.testng.annotations.DataProvider;
 
-import base.Basetest;
+import base.BaseTest;
 
-public class DataUtil extends Basetest{
+public class DataUtil extends BaseTest{
 	
 	@DataProvider(name="dp")
 	
-	public static Object[][] getData(Method m){
+	public Object[][] getData(Method m){
 		//Here the Method m is getting the information of the excel sheet name
 		String sheetName = m.getName();
 		
