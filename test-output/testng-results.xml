@@ -2,20 +2,20 @@
 <testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-16T00:49:42Z" name="Suite" finished-at="2024-03-16T00:49:51Z" duration-ms="8431">
+  <suite started-at="2024-03-16T17:58:53Z" name="Suite" finished-at="2024-03-16T17:59:01Z" duration-ms="7674">
     <groups>
     </groups>
-    <test started-at="2024-03-16T00:49:42Z" name="Find Car Test" finished-at="2024-03-16T00:49:51Z" duration-ms="8431">
+    <test started-at="2024-03-16T17:58:53Z" name="Find Car Test" finished-at="2024-03-16T17:59:01Z" duration-ms="7674">
       <class name="testcases.FindCarTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.FindCarTest@6c451c9c]" started-at="2024-03-16T00:49:42Z" name="setUp" finished-at="2024-03-16T00:49:48Z" duration-ms="5960" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.FindCarTest@43034809]" started-at="2024-03-16T17:58:53Z" name="setUp" finished-at="2024-03-16T17:58:58Z" duration-ms="4960" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="findCarTest()[pri:0, instance:testcases.FindCarTest@6c451c9c]" started-at="2024-03-16T00:49:48Z" name="findCarTest" finished-at="2024-03-16T00:49:51Z" duration-ms="2285" status="PASS">
+        <test-method signature="findCarTest()[pri:0, instance:testcases.FindCarTest@43034809]" started-at="2024-03-16T17:58:58Z" name="findCarTest" finished-at="2024-03-16T17:59:01Z" duration-ms="2452" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findCarTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.FindCarTest@6c451c9c]" started-at="2024-03-16T00:49:51Z" name="tearDown" finished-at="2024-03-16T00:49:51Z" duration-ms="165" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.FindCarTest@43034809]" started-at="2024-03-16T17:59:01Z" name="tearDown" finished-at="2024-03-16T17:59:01Z" duration-ms="245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

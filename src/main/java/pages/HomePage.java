@@ -24,7 +24,6 @@ public class HomePage extends BasePage{
 	public void findNewCar() throws InterruptedException {
 		
 		new Actions(driver).moveToElement(newCars).perform();
-		Thread.sleep(2000);
 		findNewCars.click();
 		Thread.sleep(2000);	
 

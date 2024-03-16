@@ -9,7 +9,9 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
-import java.util.logging.Logger;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
@@ -29,7 +31,7 @@ public class BaseTest {
 
 	public WebDriver driver;
 	public Properties Config = new Properties();
-	public Logger log = Logger.getLogger(BaseTest.class.getName());
+	public Logger log = LogManager.getLogger(BaseTest.class.getName());
 	public FileInputStream fis;
 	public WebDriverWait wait;
 	public ExcelReader excel = new ExcelReader(System.getProperty("user.dir") + "/src/test/resources/excel/testdata.xlsx");
