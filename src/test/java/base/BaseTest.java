@@ -10,10 +10,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
-import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -22,8 +21,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterMethod;
 
 import utilities.ExcelReader;
 
@@ -38,8 +36,8 @@ public class BaseTest {
 	static WebElement dropdown;
 	public String srcfileName;
 
-	@BeforeTest
-	public void setUp() {
+
+	public void setUp(String browserName) {
 
 			try {
 				fis = new FileInputStream("/Users/rimadas/eclipse-workspace/SeleniumPageObjectModelFramework/src/test/resources/properties/Config.properties");
@@ -54,7 +52,7 @@ public class BaseTest {
 				e.printStackTrace();
 			}
 
-			if (Config.getProperty("browser").equals("chrome")) {
+			if (browserName.equals("chrome")) {
 				
 				Map<String, Object> prefs = new HashMap<String, Object>();
 				prefs.put("profile.default_content_setting_values.notifications", 2);
@@ -70,7 +68,7 @@ public class BaseTest {
 				driver = new ChromeDriver(options);
 				log.info("Chrome Browser Launched");
 				
-			} else if (Config.getProperty("browser").equals("firefox")) {
+			} else if (browserName.equals("firefox")) {
 				driver = new FirefoxDriver();
 				log.info("Firefox Browser Launched");
 			}
@@ -82,7 +80,7 @@ public class BaseTest {
 		}
 
 
-	@AfterTest
+	@AfterMethod
 	public void tearDown() {
 
 		driver.quit();
