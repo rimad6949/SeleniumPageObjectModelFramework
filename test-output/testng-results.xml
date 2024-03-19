@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-18T22:08:28Z" name="Suite" finished-at="2024-03-18T22:09:04Z" duration-ms="36020">
+  <suite started-at="2024-03-19T01:09:50Z" name="Suite" finished-at="2024-03-19T01:10:29Z" duration-ms="39123">
     <groups>
     </groups>
-    <test started-at="2024-03-18T22:08:28Z" name="Find Car Test" finished-at="2024-03-18T22:09:04Z" duration-ms="36020">
+    <test started-at="2024-03-19T01:09:50Z" name="Find Car Test" finished-at="2024-03-19T01:10:29Z" duration-ms="39123">
       <class name="testcases.FindCarTest">
-        <test-method signature="findCarTest(java.lang.String, java.lang.String)[pri:0, instance:testcases.FindCarTest@4bb003e9]" started-at="2024-03-18T22:08:28Z" name="findCarTest" data-provider="dp" finished-at="2024-03-18T22:08:35Z" duration-ms="6808" status="PASS">
+        <test-method signature="findCarTest(java.lang.String, java.lang.String)[pri:0, instance:testcases.FindCarTest@12aa4996]" started-at="2024-03-19T01:09:50Z" name="findCarTest" data-provider="dp" finished-at="2024-03-19T01:09:58Z" duration-ms="7985" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,11 +23,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findCarTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.FindCarTest@4bb003e9]" started-at="2024-03-18T22:08:35Z" name="tearDown" finished-at="2024-03-18T22:08:35Z" duration-ms="169" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.FindCarTest@12aa4996]" started-at="2024-03-19T01:09:58Z" name="tearDown" finished-at="2024-03-19T01:09:58Z" duration-ms="167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="findCarTest(java.lang.String, java.lang.String)[pri:0, instance:testcases.FindCarTest@4bb003e9]" started-at="2024-03-18T22:08:35Z" name="findCarTest" data-provider="dp" finished-at="2024-03-18T22:08:44Z" duration-ms="9289" status="PASS">
+        <test-method signature="findCarTest(java.lang.String, java.lang.String)[pri:0, instance:testcases.FindCarTest@12aa4996]" started-at="2024-03-19T01:09:58Z" name="findCarTest" data-provider="dp" finished-at="2024-03-19T01:10:10Z" duration-ms="11981" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,11 +43,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findCarTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.FindCarTest@4bb003e9]" started-at="2024-03-18T22:08:44Z" name="tearDown" finished-at="2024-03-18T22:08:45Z" duration-ms="900" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.FindCarTest@12aa4996]" started-at="2024-03-19T01:10:10Z" name="tearDown" finished-at="2024-03-19T01:10:11Z" duration-ms="899" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="findCarTest(java.lang.String, java.lang.String)[pri:0, instance:testcases.FindCarTest@4bb003e9]" started-at="2024-03-18T22:08:45Z" name="findCarTest" data-provider="dp" finished-at="2024-03-18T22:08:52Z" duration-ms="7031" status="PASS">
+        <test-method signature="findCarTest(java.lang.String, java.lang.String)[pri:0, instance:testcases.FindCarTest@12aa4996]" started-at="2024-03-19T01:10:11Z" name="findCarTest" data-provider="dp" finished-at="2024-03-19T01:10:18Z" duration-ms="7218" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,11 +63,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findCarTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.FindCarTest@4bb003e9]" started-at="2024-03-18T22:08:52Z" name="tearDown" finished-at="2024-03-18T22:08:53Z" duration-ms="160" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.FindCarTest@12aa4996]" started-at="2024-03-19T01:10:18Z" name="tearDown" finished-at="2024-03-19T01:10:19Z" duration-ms="161" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="findCarTest(java.lang.String, java.lang.String)[pri:0, instance:testcases.FindCarTest@4bb003e9]" started-at="2024-03-18T22:08:53Z" name="findCarTest" data-provider="dp" finished-at="2024-03-18T22:09:03Z" duration-ms="10579" status="PASS">
+        <test-method signature="findCarTest(java.lang.String, java.lang.String)[pri:0, instance:testcases.FindCarTest@12aa4996]" started-at="2024-03-19T01:10:19Z" name="findCarTest" data-provider="dp" finished-at="2024-03-19T01:10:28Z" duration-ms="9739" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -83,7 +83,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findCarTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.FindCarTest@4bb003e9]" started-at="2024-03-18T22:09:03Z" name="tearDown" finished-at="2024-03-18T22:09:04Z" duration-ms="1019" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.FindCarTest@12aa4996]" started-at="2024-03-19T01:10:28Z" name="tearDown" finished-at="2024-03-19T01:10:29Z" duration-ms="911" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
