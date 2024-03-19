@@ -12,7 +12,7 @@ public class HomePage extends BasePage{
 	public HomePage(WebDriver driver) {
 		super(driver);
 	}
-
+	
 	@FindBy(xpath="//*[@id=\"root\"]/div[1]/header/div/nav/ul/li[1]/div")
 	public WebElement newCars;
 	
