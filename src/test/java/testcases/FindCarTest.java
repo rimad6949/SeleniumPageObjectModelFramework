@@ -1,6 +1,5 @@
 package testcases;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import base.BasePage;
@@ -14,6 +13,7 @@ public class FindCarTest extends BaseTest{
 	public void findCarTest(String brandName, String browserName) throws InterruptedException{
 		//Calling the setup method from BaseTest
 		setUp(browserName);
+		
 		
 		if(brandName.equals("Maruti")) 
 		{

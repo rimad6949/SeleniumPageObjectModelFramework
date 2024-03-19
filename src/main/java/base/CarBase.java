@@ -17,35 +17,6 @@ public class CarBase {
 	}
 	
 	
-	//Code to get all the trending Car Model Name and Price from the Homepage
-	
-/*	@FindBy(xpath="//*[@id=\"root\"]/div[2]/div[2]/section/div/div/div[2]/div[1]/div/div/div/div[1]/div/div/div/div/div/div/div[2]/a/div")
-	public List<WebElement> trendingCars;
-	
-	@FindBy(xpath="//*[@id=\"root\"]/div[2]/div[2]/section/div/div/div[2]/div[1]/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[1]")
-	public List<WebElement> trendingCarPrice;
-	
-	public void gettrendingCars() {
-		
-		for(int i = 0; i<trendingCars.size();i++) {
-			
-			String trendingCarlist = (String)trendingCars.get(i).getText();
-			System.out.println(trendingCarlist);
-		}
-		
-	}
-	
-	public void gettrendingCarPrice() {
-		
-		for(int i = 0; i<trendingCarPrice.size();i++) {
-			
-			String trendingCarPricelist = (String)trendingCarPrice.get(i).getText();
-			System.out.println(trendingCarPricelist);
-		}
-		
-	}
-*/	
-	
 
 	// Code to get the Title of Cars from New Cars Page
 	

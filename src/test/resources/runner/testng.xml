@@ -5,6 +5,12 @@
 		<listener class-name="org.uncommons.reportng.HTMLReporter" />
 		<listener class-name="extentlisteners.ExtentListeners" />
 	</listeners>
+		<test name="HomePage Test">
+		<classes>
+			<class name="testcases.HomePageTest" />
+		</classes>
+	</test> <!--
+	Test -->
 	<test name="Find Car Test">
 		<classes>
 			<class name="testcases.FindCarTest" />
