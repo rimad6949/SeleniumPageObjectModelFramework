@@ -25,3 +25,11 @@
 2024-03-18 15:08:53 [main] INFO  base.BaseTest - Closing the browser
 2024-03-18 15:08:56 [main] INFO  base.BaseTest - Firefox Browser Launched
 2024-03-18 15:09:04 [main] INFO  base.BaseTest - Closing the browser
+2024-03-18 18:09:53 [main] INFO  base.BaseTest - Chrome Browser Launched
+2024-03-18 18:09:58 [main] INFO  base.BaseTest - Closing the browser
+2024-03-18 18:10:03 [main] INFO  base.BaseTest - Firefox Browser Launched
+2024-03-18 18:10:11 [main] INFO  base.BaseTest - Closing the browser
+2024-03-18 18:10:13 [main] INFO  base.BaseTest - Chrome Browser Launched
+2024-03-18 18:10:19 [main] INFO  base.BaseTest - Closing the browser
+2024-03-18 18:10:22 [main] INFO  base.BaseTest - Firefox Browser Launched
+2024-03-18 18:10:29 [main] INFO  base.BaseTest - Closing the browser

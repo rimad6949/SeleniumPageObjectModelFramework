@@ -34,8 +34,10 @@ public class ExtentListeners implements ITestListener {
 
 	public void onTestStart(ITestResult result) 
 	{
-				
-		test = extent.createTest(result.getTestClass().getName()+"@TestCase : "+result.getMethod().getMethodName());     
+		//Returns in the form of object array but we need this in the form of a string.
+		//i.e. from FindCarTest class, out the these 2 parameters (String brandName, String browserName), I need the value that is at the zeroth index
+		String param = (String)result.getParameters()[0];
+		test = extent.createTest(result.getTestClass().getName()+" @TestCase : "+result.getMethod().getMethodName() + " -> " + param);     
 	}
 
 	public void onTestSuccess(ITestResult result) 
