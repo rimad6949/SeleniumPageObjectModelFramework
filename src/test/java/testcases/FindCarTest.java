@@ -23,6 +23,7 @@ public class FindCarTest extends BaseTest{
 			System.out.println("---------"+ BasePage.car.getCarTitle()+"---------");
 			BasePage.car.getCarModelName();	
 			BasePage.car.getCarPrice();
+			BasePage.car.addCarModelInFile(brandName);
 			
 		} 
 		else if(brandName.equals("Kia"))
@@ -32,6 +33,7 @@ public class FindCarTest extends BaseTest{
 			System.out.println("---------"+ BasePage.car.getCarTitle()+"---------");
 			BasePage.car.getCarModelName();	
 			BasePage.car.getCarPrice();
+			BasePage.car.addCarModelInFile(brandName);
 			
 		}
 		else if(brandName.equals("Toyota"))
@@ -41,6 +43,7 @@ public class FindCarTest extends BaseTest{
 			System.out.println("---------"+ BasePage.car.getCarTitle()+"---------");
 			BasePage.car.getCarModelName();	
 			BasePage.car.getCarPrice();
+			BasePage.car.addCarModelInFile(brandName);
 			
 		}
 		else if(brandName.equals("Hynundai"))
@@ -50,6 +53,7 @@ public class FindCarTest extends BaseTest{
 			System.out.println("---------"+ BasePage.car.getCarTitle()+"---------");
 			BasePage.car.getCarModelName();	
 			BasePage.car.getCarPrice();
+			BasePage.car.addCarModelInFile(brandName);
 			
 		}
 				
